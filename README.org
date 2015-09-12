@@ -1,0 +1,79 @@
+#+title: .emacs.d
+#+author: ardumont
+
+My enhanced default emacs' settings.
+
+WIP...
+
+* Install
+
+[[https://nixos.org/nix][Nix]] is in charge of installing Emacs and its dependencies.
+
+Add this in ~/.nixpkgs/config.nix:
+#+begin_src nix
+{ pkgs,
+  emacsPackagesNgGen ? (import <nixpkgs> {}).emacsPackagesNgGen }:
+
+  packageOverrides = self : with pkgs;
+      # distribution emacs with other packages
+      emacs-env = pkgs.buildEnv {
+        name = "emacs-env";
+        paths = with emacsPackagesNgGen emacs; [
+          emacs
+
+          # aspell
+          # aspellDicts.en
+          # aspellDicts.fr
+          # flycheck
+          # flycheck-pos-tip
+
+          markdown-mode
+          org-trello
+          auto-complete
+          ac-haskell-process
+          company
+          haskell-mode
+          structured-haskell-mode
+          ace-jump-mode
+          exec-path-from-shell
+          gnus
+          god-mode
+          magit
+          projectile
+          switch-window
+          smart-mode-line
+          undo-tree
+          use-package
+          dash
+          dash-functional
+          s
+          deferred
+          diminish
+          popup
+
+          # ag
+          # auctex
+          # change-inner
+          # circe
+          # expand-region
+          # helm
+          # helm-swoop
+          # hi2
+          # idris-mode
+          # monokai-theme
+          # org-plus-contrib
+          # smartparens
+          # volatile-highlights
+          # wgrep
+          # zenburn-theme
+
+        ];
+      };
+    }
+#+end_src
+
+Then update your environment:
+
+#+begin_src sh
+nix-env -i emacs-env
+#+end_src

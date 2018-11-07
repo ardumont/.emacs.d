@@ -1,0 +1,12 @@
+(:name spacemacs-theme
+       :type github
+       :pkgname "nashamri/spacemacs-theme"
+       :features ("spacemacs-light-theme" "spacemacs-dark-theme"))
+
+;; (:name spacemacs-theme
+;;        :type elpa
+;;        :repo ("melpa" . "https://melpa.org/packages/")
+;;        :load-path "."
+;;        :features ("spacemacs-theme" "spacemacs-light" "spacemacs-dark"))
+
+

@@ -1,0 +1,6 @@
+(:name haskell-pack
+       :description "Haskell configuration"
+       :type git
+       :url "https://github.com/ardumont/haskell-pack"
+       :depends (deferred structured-haskell-mode haskell-mode
+		 flymake-shell ghci-completion emacs-w3m smartscan flymake-hlint))

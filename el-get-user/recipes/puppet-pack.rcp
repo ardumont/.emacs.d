@@ -1,0 +1,4 @@
+(:name puppet-pack
+       :type git
+       :url "https://github.com/ardumont/puppet-pack"
+       :depends (use-package smartscan puppet-mode))

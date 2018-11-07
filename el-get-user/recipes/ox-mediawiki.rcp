@@ -1,0 +1,4 @@
+(:name ox-mediawiki
+       :type github
+       :pkgname "tomalexander/orgmode-mediawiki"
+       :depends (org-mode s))

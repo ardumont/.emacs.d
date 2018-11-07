@@ -1,0 +1,4 @@
+(:name helm-pack
+       :type git
+       :url "https://github.com/ardumont/helm-pack"
+       :depends (helm))

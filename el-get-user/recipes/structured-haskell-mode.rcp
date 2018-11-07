@@ -1,0 +1,9 @@
+(:name structured-haskell-mode
+       :description "Structured Haskell editing operations."
+       :type github
+       :pkgname "chrisdone/structured-haskell-mode"
+       :depends (haskell-mode)
+       :build `(("stack" "install"))
+       :load-path "elisp"
+       :post-init (setq shm-program-name
+			(expand-file-name "~/.local/bin/structured-haskell-mode")))

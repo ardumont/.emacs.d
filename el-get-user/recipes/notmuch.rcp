@@ -1,0 +1,7 @@
+(:name notmuch
+       :description "Run notmuch(thread-based email index, search and tagging) within emacs"
+       :type git
+       :url "https://github.com/ardumont/notmuch"
+       :branch "optionally-paginate-saved-search"
+       :load-path ("./emacs")
+       :build (("./configure") ("make")))

@@ -1,0 +1,6 @@
+(:name emr
+       :description "Emacs refactoring system."
+       :type github
+       :pkgname "Wilfred/emacs-refactor"
+       :depends (s dash cl-lib popup list-utils paredit projectile clang-format iedit))
+

@@ -1,0 +1,4 @@
+(:name browser-pack
+       :type git
+       :url "https://github.com/ardumont/browser-pack"
+       :depends (emacs-w3m restclient))

@@ -1,0 +1,4 @@
+(:name mercurial-pack
+       :type git
+       :url "https://github.com/ardumont/mercurial-pack"
+       :depends (monky))

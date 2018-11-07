@@ -1,0 +1,4 @@
+(:name marmalade-upload
+       :type github
+       :pkgname "nicferrier/emacs-marmalade-upload"
+       :depends (web kv gh))

@@ -1,0 +1,4 @@
+(:name help-pack
+       :type git
+       :url "https://github.com/ardumont/help-pack"
+       :depends (guide-key))

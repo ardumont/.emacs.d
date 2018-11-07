@@ -1,0 +1,5 @@
+(:name jabber-otr
+       :description "OTR support for emacs-jabber. Work in progress."
+       :type elpa
+       :repo ("melpa" . "http://melpa.org/packages/")
+       :depends (emacs-jabber creds))

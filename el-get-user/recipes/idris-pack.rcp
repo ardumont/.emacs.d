@@ -1,0 +1,4 @@
+(:name idris-pack
+       :type git
+       :url "https://github.com/ardumont/idris-pack"
+       :depends (idris-mode))

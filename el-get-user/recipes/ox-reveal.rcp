@@ -1,0 +1,4 @@
+(:name ox-reveal
+       :type github
+       :pkgname "yjwen/org-reveal"
+       :depends (org-mode))

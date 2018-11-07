@@ -1,0 +1,16 @@
+;; (:name toc-orc
+;;        :type github
+;;        :pkgname "snosov1/toc-org"
+;;        :depends (org-mode))
+(:name toc-orc
+       :type git
+       :url "https://github.com/snosov1/toc-org"
+       :depends (org-mode))
+;; (:name toc-orc
+;;        :description "add table of contents to org-mode files (formerly, org-toc)"
+;;        :website "https://github.com/snosov1/toc-org"
+;;        :type elpa
+;;        :repo ("melpa" . "http://melpa.org/packages/")
+;;        :depends (org-mode))
+
+

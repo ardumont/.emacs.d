@@ -1,0 +1,4 @@
+(:name conkeror-pack
+       :type git
+       :url "https://github.com/ardumont/conkeror-pack"
+       :depends (use-package conkeror-minor-mode moz-repl))

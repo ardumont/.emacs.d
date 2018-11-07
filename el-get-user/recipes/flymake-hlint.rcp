@@ -1,0 +1,4 @@
+(:name flymake-hlint
+       :type github
+       :pkgname "purcell/flymake-hlint"
+       :depends (flymake-easy))

@@ -1,0 +1,4 @@
+(:name twitter-pack
+       :type git
+       :url "https://github.com/ardumont/twitter-pack"
+       :depends (twittering-mode))

@@ -1,0 +1,4 @@
+(:name purescript-pack
+       :type git
+       :url "https://github.com/ardumont/purescript-pack"
+       :depends (psci purescript-mode))

@@ -1,0 +1,4 @@
+(:name creds
+       :type git
+       :url "https://github.com/ardumont/emacs-creds"
+       :depends (dash s))

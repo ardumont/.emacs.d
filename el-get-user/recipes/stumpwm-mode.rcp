@@ -1,0 +1,4 @@
+(:name stumpwm-mode
+       :type git
+       :url "https://git.savannah.nongnu.org/git/stumpwm.git"
+       :load-path "contrib/")

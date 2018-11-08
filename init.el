@@ -50,7 +50,7 @@
 
 ;; (message "############# module buffer-pack loaded")
 
-(el-get-bundle! git-pack)
+;; (el-get-bundle! git-pack)
 
 ;; (message "############# module git-pack loaded")
 
@@ -73,7 +73,7 @@
 
 ;; (message "############# module browser-pack loaded")
 
-(el-get-bundle! helm-pack)
+;; (el-get-bundle! helm-pack)
 
 ;; (message "############# module helm-pack loaded")
 
@@ -89,7 +89,7 @@
 
 ;; (message "############# module shell-pack loaded")
 
-;; (el-get-bundle! python-pack)
+(el-get-bundle! python-pack)
 
 ;; (message "############# module python-pack loaded")
 
@@ -121,11 +121,11 @@
 
 ;; (message "############# module blog-pack loaded")
 
-;; (el-get-bundle! wiki-pack)
+(el-get-bundle! wiki-pack)
 
 ;; (message "############# module wiki-pack loaded")
 
-;; (el-get-bundle! haskell-pack)
+(el-get-bundle! haskell-pack)
 
 ;; (message "############# module haskell-pack loaded")
 
@@ -145,7 +145,7 @@
 
 ;; (message "############# module macro-pack loaded")
 
-;; (el-get-bundle! pres-pack)
+(el-get-bundle! pres-pack)
 
 ;; (message "############# module pres-pack loaded")
 
@@ -158,12 +158,11 @@
 
 ;; issues with the following
 
-;; (el-get-bundle! caml-pack)
 ;; (el-get-bundle! chat-pack)
 ;; (el-get-bundle! orgmode-pack)
 ;; (el-get-bundle! clojure-pack)
 ;; (el-get-bundle! scala-pack)
-;; (el-get-bundle! ctags-pack)
+;; (el-get-bundle! caml-pack)
 
 ;; must be the last instruction
 ;; (el-get 'sync)

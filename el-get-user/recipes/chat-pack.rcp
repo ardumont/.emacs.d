@@ -2,4 +2,4 @@
        :description "irc/chat pack"
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/chat-pack"
-       :depends (use-package emacs-jabber creds))
+       :depends (emacs-jabber creds))

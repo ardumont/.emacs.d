@@ -1,4 +1,4 @@
 (:name graph-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/graph-pack"
-       :depends (use-package graphviz))
+       :depends (graphviz))

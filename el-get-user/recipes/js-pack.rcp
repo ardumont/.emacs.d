@@ -1,5 +1,4 @@
 (:name js-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/js-pack"
-       :depends (use-package smartscan flycheck js2-mode
-                  web-mode js2-refactor))
+       :depends (smartscan flycheck js2-mode web-mode js2-refactor))

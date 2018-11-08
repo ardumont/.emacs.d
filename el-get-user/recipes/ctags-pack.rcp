@@ -1,4 +1,4 @@
 (:name ctags-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/ctags-pack"
-       :depends (use-package magit etags-select))
+       :depends (magit etags-select))

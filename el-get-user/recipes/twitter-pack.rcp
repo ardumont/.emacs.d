@@ -1,4 +1,4 @@
 (:name twitter-pack
        :type git
-       :url "https://github.com/ardumont/twitter-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/twitter-pack"
        :depends (twittering-mode))

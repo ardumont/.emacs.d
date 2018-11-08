@@ -1,4 +1,4 @@
 (:name conkeror-pack
        :type git
-       :url "https://github.com/ardumont/conkeror-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/conkeror-pack"
        :depends (use-package conkeror-minor-mode moz-repl))

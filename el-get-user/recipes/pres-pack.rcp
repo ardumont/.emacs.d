@@ -1,4 +1,4 @@
 (:name pres-pack
        :type git
-       :url "https://github.com/ardumont/pres-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/pres-pack"
        :depends (ox-reveal))

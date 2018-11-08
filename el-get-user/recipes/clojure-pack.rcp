@@ -1,6 +1,6 @@
 (:name clojure-pack
        :description "clojure pack"
        :type git
-       :url "https://github.com/ardumont/clojure-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/clojure-pack"
        :depends (eval-sexp-fu cider clojure-mode clj-refactor
 			      yasnippet company-mode smartscan))

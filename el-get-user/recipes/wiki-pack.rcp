@@ -1,4 +1,4 @@
 (:name wiki-pack
        :type git
-       :url "https://github.com/ardumont/wiki-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/wiki-pack"
        :depends (mediawiki ox-mediawiki))

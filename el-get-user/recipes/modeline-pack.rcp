@@ -1,4 +1,4 @@
 (:name modeline-pack
        :type git
-       :url "https://github.com/ardumont/modeline-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/modeline-pack"
        :depends (dash s diminish))

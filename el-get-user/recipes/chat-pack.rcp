@@ -1,5 +1,5 @@
 (:name chat-pack
        :description "irc/chat pack"
        :type git
-       :url "https://github.com/ardumont/chat-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/chat-pack"
        :depends (use-package emacs-jabber creds))

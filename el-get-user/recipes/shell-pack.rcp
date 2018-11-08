@@ -1,4 +1,4 @@
 (:name shell-pack
        :type git
-       :url "https://github.com/ardumont/shell-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/shell-pack"
        :depends (smartscan popwin))

@@ -1,7 +1,7 @@
 (:name mail-pack
        :description "E-mail setup with emacs"
        :type git
-       :url "https://github.com/ardumont/mail-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/mail-pack"
        :branch "notmuch"
        :depends (creds dash s offlineimap
                        emacs-async google-contacts notmuch)

@@ -1,4 +1,4 @@
 (:name stumpwm-pack
        :type git
-       :url "https://github.com/ardumont/stumpwm-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/stumpwm-pack"
        :depends (use-package smartscan rainbow-delimiters stumpwm-mode))

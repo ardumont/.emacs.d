@@ -1,4 +1,4 @@
 (:name prelude-pack
        :type git
-       :url "https://github.com/ardumont/prelude-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/prelude-pack"
        :depends (crux projectile magit move-text prelude-mode))

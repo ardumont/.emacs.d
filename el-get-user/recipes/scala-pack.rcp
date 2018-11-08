@@ -1,4 +1,4 @@
 (:name scala-pack
        :type git
-       :url "https://github.com/ardumont/scala-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/scala-pack"
        :depends (scala-mode ensime))

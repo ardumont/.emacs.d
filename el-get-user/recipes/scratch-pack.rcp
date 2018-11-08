@@ -1,5 +1,5 @@
 (:name scratch-pack
        :description "Tinkering pack"
        :type git
-       :url "https://github.com/ardumont/scratch-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/scratch-pack"
        :depends (htmlize google-this hydra))

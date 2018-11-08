@@ -1,6 +1,9 @@
 (:name theme-pack
        :type git
-       :url "https://github.com/ardumont/theme-pack"
-       :depends (s deferred dash color-theme smart-mode-line
-		   spacemacs-theme emacs-powerline))
+       :url "git@ardumont.freeboxos.fr:ardumont/theme-pack"
+       :depends (s deferred dash smart-mode-line spacemacs-theme emacs-powerline)
+       :after (progn
+		(theme-pack-set-size)
+		(theme-pack-dark)
+		(global-theme-pack-mode)))
 

@@ -1,4 +1,4 @@
 (:name helm-pack
        :type git
-       :url "https://github.com/ardumont/helm-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/helm-pack"
        :depends (helm))

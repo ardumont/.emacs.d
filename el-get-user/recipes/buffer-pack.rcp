@@ -1,7 +1,7 @@
 (:name buffer-pack
        :description "Buffer manipulation"
        :type git
-       :url "https://github.com/ardumont/buffer-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/buffer-pack"
        :depends (move-text dockerfile-mode projectile
 			   dash tramp markdown-mode iedit markdown-toc
 			   multiple-cursors git-gutter buffer-move company-mode

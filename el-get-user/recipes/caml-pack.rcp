@@ -1,4 +1,4 @@
 (:name caml-pack
        :type git
-       :url "https://github.com/ardumont/caml-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/caml-pack"
        :depends (use-package smartscan tuareg-mode company-mode deferred))

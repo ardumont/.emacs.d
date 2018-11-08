@@ -1,4 +1,4 @@
 (:name irc-pack
        :type git
-       :url "https://github.com/ardumont/irc-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/irc-pack"
        :depends (dash creds))

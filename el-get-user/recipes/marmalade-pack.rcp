@@ -1,4 +1,4 @@
 (:name marmalade-pack
        :type git
-       :url "https://github.com/ardumont/marmalade-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/marmalade-pack"
        :depends (use-package marmalade-upload))

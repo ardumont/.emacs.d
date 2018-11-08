@@ -1,5 +1,5 @@
 (:name orgmode-pack
        :description "org-mode configuration"
        :type git
-       :url "https://github.com/ardumont/orgmode-pack"
+       :url "git@ardumont.freeboxos.fr:ardumont/orgmode-pack"
        :depends (org-mode ac-math smartscan dash auto-complete))

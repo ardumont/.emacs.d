@@ -42,7 +42,10 @@
 
 (message "############# el-get init done, now personalize some more")
 
-(el-get-bundle! theme-pack)
+(el-get-bundle! theme-pack
+  (theme-pack-set-size)
+  (theme-pack-dark)
+  (global-theme-pack-mode))
 
 ;; (message "############# module theme-pack loaded")
 

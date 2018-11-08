@@ -3,7 +3,7 @@
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/buffer-pack"
        :depends (move-text dockerfile-mode projectile
-			   dash tramp markdown-mode iedit markdown-toc
+			   dash markdown-mode iedit markdown-toc
 			   multiple-cursors git-gutter buffer-move company-mode
 			   ace-window iy-go-to-char s git-gutter popwin
 			   ht))

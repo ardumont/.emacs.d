@@ -40,94 +40,130 @@
 
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
-(el-get-bundle theme-pack
-  (theme-pack-set-size)
-  (theme-pack-dark)
-  (global-theme-pack-mode))
+(message "############# el-get init done, now personalize some more")
 
-(el-get-bundle buffer-pack (require 'buffer-pack))
+(el-get-bundle! theme-pack)
 
-(el-get-bundle git-pack (require 'git-pack))
+;; (message "############# module theme-pack loaded")
 
-(el-get-bundle w3m
-  (require 'w3m)
+(el-get-bundle! buffer-pack)
+
+;; (message "############# module buffer-pack loaded")
+
+(el-get-bundle! git-pack)
+
+;; (message "############# module git-pack loaded")
+
+(el-get-bundle! w3m
   (custom-set-variables '(w3m-command "/usr/bin/w3m")))
 
-(el-get-bundle prelude-pack
-  (require 'prelude-pack)
+(el-get-bundle! prelude-pack
   (global-prelude-pack-mode))
 
-(el-get-bundle mail-pack
-  (require 'mail-pack)
-  ;; no need for overriding the load-path, el-get is already dealing
-  ;; with it
-  (custom-set-variables '(mail-pack-mail-indexer-install-folder nil)))
+;; (message "############# module prelude-pack loaded")
 
-(el-get-bundle browser-pack (require 'browser-pack))
+;; (el-get-bundle! mail-pack
+;;   ;; no need for overriding the load-path, el-get is already dealing
+;;   ;; with it
+;;   (custom-set-variables '(mail-pack-mail-indexer-install-folder nil)))
 
-(el-get-bundle helm-pack (require 'helm-pack))
+;; (message "############# module mail-pack loaded")
 
-(el-get-bundle help-pack (require 'help-pack))
+;; (el-get-bundle! browser-pack)
 
-(el-get-bundle popup-pack (require 'popup-pack))
+;; (message "############# module browser-pack loaded")
 
-(el-get-bundle shell-pack (require 'shell-pack))
+(el-get-bundle! helm-pack)
 
-(el-get-bundle python-pack (require 'python-pack))
+;; (message "############# module helm-pack loaded")
 
-(el-get-bundle scratch-pack (require 'scratch-pack))
+;; (el-get-bundle! help-pack)
 
-(el-get-bundle twitter-pack (require 'twitter-pack))
+;; (message "############# module help-pack loaded")
 
-(el-get-bundle modeline-pack (require 'modeline-pack))
+;; (el-get-bundle! popup-pack)
 
-(el-get-bundle elisp-pack (require 'elisp-pack))
+;; (message "############# module popup-pack loaded")
 
-(el-get-bundle puppet-pack (require 'puppet-pack))
+;; (el-get-bundle! shell-pack)
 
-(el-get-bundle blog-pack (require 'blog-pack))
+;; (message "############# module shell-pack loaded")
 
-(el-get-bundle wiki-pack (require 'wiki-pack))
+;; (el-get-bundle! python-pack)
 
-(el-get-bundle haskell-pack (require 'haskell-pack))
+;; (message "############# module python-pack loaded")
 
-(el-get-bundle lisp-pack (require 'lisp-pack))
+;; (el-get-bundle! scratch-pack)
 
-(el-get-bundle mercurial-pack (require 'mercurial-pack))
+;; (message "############# module scratch-pack loaded")
 
-(el-get-bundle conkeror-pack (require 'conkeror-pack))
+;; (el-get-bundle! twitter-pack)
 
-(el-get-bundle irc-pack (require 'irc-pack))
+;; (message "############# module twitter-pack loaded")
 
-(el-get-bundle chat-pack (require 'chat-pack))
+;; (el-get-bundle! modeline-pack)
 
-(el-get-bundle macro-pack (require 'macro-pack))
+;; (message "############# module modeline-pack loaded")
 
-;; (el-get-bundle pres-pack (require 'pres-pack))
+;; (el-get-bundle! lisp-pack)
 
-;; (el-get-bundle purescript-pack (require 'purescript-pack))
+;; (message "############# module lisp-pack loaded")
 
-;; (el-get-bundle idris-pack (require 'idris-pack))
+;; (el-get-bundle! elisp-pack)
 
-;; (el-get-bundle viewer-pack (require 'viewer-pack))
+;; (message "############# module elisp-pack loaded")
 
-;; (el-get-bundle marmalade-pack (require 'marmalade-pack))
+;; (el-get-bundle! puppet-pack)
 
-;; (el-get-bundle stumpwm-pack (require 'stumpwm-pack))
+;; (message "############# module puppet-pack loaded")
 
-;; (el-get-bundle caml-pack (require 'caml-pack))
+;; (el-get-bundle! blog-pack)
 
-;; issue
-;; (el-get-bundle orgmode-pack (require 'orgmode-pack))
+;; (message "############# module blog-pack loaded")
 
-;; issue
-;; (el-get-bundle clojure-pack (require 'clojure-pack))
+;; (el-get-bundle! wiki-pack)
 
-;; issue
-;; (el-get-bundle scala-pack (require 'scala-pack))
+;; (message "############# module wiki-pack loaded")
 
-;; issue
-;; (el-get-bundle ctags-pack (require 'ctags-pack))
+;; (el-get-bundle! haskell-pack)
+
+;; (message "############# module haskell-pack loaded")
+
+;; (el-get-bundle! mercurial-pack)
+
+;; (message "############# module mercurial-pack loaded")
+
+;; (el-get-bundle! conkeror-pack)
+
+;; (message "############# module conkeror-pack loaded")
+
+;; (el-get-bundle! irc-pack)
+
+;; (message "############# module irc-pack loaded")
+
+;; (el-get-bundle! macro-pack)
+
+;; (message "############# module macro-pack loaded")
+
+;; (el-get-bundle! pres-pack)
+
+;; (message "############# module pres-pack loaded")
+
+;; deactivate those
+;; (el-get-bundle! purescript-pack)
+;; (el-get-bundle! idris-pack)
+;; (el-get-bundle! viewer-pack)
+;; (el-get-bundle! marmalade-pack)
+;; (el-get-bundle! stumpwm-pack)
+
+;; issues with the following
+
+;; (el-get-bundle! caml-pack)
+;; (el-get-bundle! chat-pack)
+;; (el-get-bundle! orgmode-pack)
+;; (el-get-bundle! clojure-pack)
+;; (el-get-bundle! scala-pack)
+;; (el-get-bundle! ctags-pack)
 
 ;; must be the last instruction
 ;; (el-get 'sync)

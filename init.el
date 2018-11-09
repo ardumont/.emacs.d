@@ -87,13 +87,13 @@
 (el-get-bundle! pres-pack (message "########## module pres-pack loaded"))
 (el-get-bundle! browser-pack (message "########## module browser-pack loaded"))
 (el-get-bundle! scratch-pack (message "########## module scratch-pack loaded"))
+(el-get-bundle! viewer-pack  (message "########## module viewer-pack loaded"))
+(el-get-bundle! marmalade-pack (message "########## module marmalade-pack loaded"))
 
 ;; deactivate those
 ;; (el-get-bundle! macro-pack (message "########## module macro-pack loaded"))
 ;; (el-get-bundle! purescript-pack (message "########## module purescript-pack loaded"))
 ;; (el-get-bundle! idris-pack  (message "########## module idris-pack loaded"))
-;; (el-get-bundle! viewer-pack  (message "########## module viewer-pack loaded"))
-;; (el-get-bundle! marmalade-pack (message "########## module marmalade-pack loaded"))
 ;; (el-get-bundle! stumpwm-pack  (message "########## module stumpwm-pack loaded"))
 
 ;; issues with the following

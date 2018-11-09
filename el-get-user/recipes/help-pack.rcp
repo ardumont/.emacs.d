@@ -1,4 +1,4 @@
 (:name help-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/help-pack"
-       :depends (guide-key))
+       :depends (which-key))

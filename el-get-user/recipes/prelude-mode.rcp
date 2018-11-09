@@ -1,5 +1,0 @@
-(:name prelude-mode
-       :type github
-       :pkgname "bbatsov/prelude"
-       :load-path "core/"
-       :depends (crux imenu-anywhere names projectile magit))

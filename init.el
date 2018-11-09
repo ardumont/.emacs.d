@@ -47,7 +47,7 @@
 (el-get-bundle! theme-pack
   (theme-pack-set-size)
   (global-theme-pack-mode)
-  (add-hook 'after-init-hook 'theme-pack-dark)
+  (theme-pack-dark)
   (message "############# module theme-pack loaded"))
 
 (el-get-bundle! w3m

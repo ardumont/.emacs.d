@@ -1,0 +1,4 @@
+(:name el-get-pack
+       :type git
+       :url "git@ardumont.freeboxos.fr:ardumont/el-get-pack"
+       :depends (el-get))

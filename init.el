@@ -44,6 +44,10 @@
 (message "############# el-get init done. Packs loading!")
 ;; (setq el-get-bundle-byte-compile nil)
 
+(el-get-bundle! el-get-pack
+  (global-el-get-pack-mode)
+  (message "########## module el-get-pack loaded"))
+
 (el-get-bundle! theme-pack
   (theme-pack-set-size)
   (global-theme-pack-mode)

@@ -28,6 +28,7 @@
 ;; You may delete these explanatory comments.
 ;; (package-initialize)
 
+(message "############# el-get init loading")
 (add-to-list 'load-path "~/.emacs.d/el-get/el-get")
 
 ;; install through el-get installer
@@ -40,7 +41,7 @@
 
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
-(message "############# el-get init done, now personalize some more")
+(message "############# el-get init done. Packs loading!")
 ;; (setq el-get-bundle-byte-compile nil)
 
 (el-get-bundle! theme-pack
@@ -48,12 +49,6 @@
   (global-theme-pack-mode)
   (add-hook 'after-init-hook 'theme-pack-dark)
   (message "############# module theme-pack loaded"))
-
-(el-get-bundle! buffer-pack
-  (message "############# module buffer-pack loaded"))
-
-(el-get-bundle! git-pack
-  (message "############# module git-pack loaded"))
 
 (el-get-bundle! w3m
   (custom-set-variables '(w3m-command "/usr/bin/w3m"))
@@ -67,82 +62,48 @@
   ;; no need for overriding the load-path, el-get is already dealing
   ;; with it
   (custom-set-variables '(mail-pack-mail-indexer-install-folder nil))
+  (mail-pack-load-pack)
   (message "############# module mail-pack loaded"))
 
-(el-get-bundle! browser-pack
-  (message "############# module browser-pack loaded"))
-
-(el-get-bundle! helm-pack
-  (message "############# module helm-pack loaded"))
-
-(el-get-bundle! help-pack
-  (message "############# module help-pack loaded"))
-
-;; (el-get-bundle! popup-pack
-;;   (message "############# module popup-pack loaded"))
-
-;; (el-get-bundle! shell-pack
-;;   (message "############# module shell-pack loaded"))
-
-;; (el-get-bundle! python-pack
-;;   (message "############# module python-pack loaded"))
-
-;; (el-get-bundle! scratch-pack
-;;   (message "############# module scratch-pack loaded"))
-
-;; (el-get-bundle! twitter-pack
-;;   (message "############# module twitter-pack loaded"))
-
-;; (el-get-bundle! modeline-pack
-;;   (message "############# module modeline-pack loaded"))
-
-(el-get-bundle! lisp-pack
-  (message "############# module lisp-pack loaded"))
-
-(el-get-bundle! elisp-pack
-  (message "############# module elisp-pack loaded"))
-
-;; (el-get-bundle! puppet-pack
-;;   (message "############# module puppet-pack loaded"))
-
-;; (el-get-bundle! blog-pack
-;;   (message "############# module blog-pack loaded"))
-
-;; (el-get-bundle! wiki-pack
-;;   (message "############# module wiki-pack loaded"))
-
-;; (el-get-bundle! haskell-pack
-;;   (message "############# module haskell-pack loaded"))
-
-;; (el-get-bundle! mercurial-pack
-;;   (message "############# module mercurial-pack loaded"))
-
-;; (el-get-bundle! conkeror-pack
-;;   (message "############# module conkeror-pack loaded"))
-
-;; (el-get-bundle! irc-pack
-;;   (message "############# module irc-pack loaded"))
-
-;; (el-get-bundle! macro-pack
-;;   (message "############# module macro-pack loaded"))
-
-;; (el-get-bundle! pres-pack
-;;   (message "############# module pres-pack loaded"))
+(el-get-bundle! git-pack (message "############# module git-pack loaded"))
+(el-get-bundle! buffer-pack(message "############# module buffer-pack loaded"))
+(el-get-bundle! helm-pack (message "########## module helm-pack loaded"))
+(el-get-bundle! help-pack (message "########## module help-pack loaded"))
+(el-get-bundle! popup-pack (message "########## module popup-pack loaded"))
+(el-get-bundle! modeline-pack (message "########## module modeline-pack loaded"))
+(el-get-bundle! shell-pack (message "########## module shell-pack loaded"))
+(el-get-bundle! orgmode-pack (message "########## module orgmode-pack loaded"))
+(el-get-bundle! python-pack (message "########## module python-pack loaded"))
+(el-get-bundle! twitter-pack (message "########## module twitter-pack loaded"))
+(el-get-bundle! lisp-pack (message "########## module lisp-pack loaded"))
+(el-get-bundle! elisp-pack (message "########## module elisp-pack loaded"))
+(el-get-bundle! puppet-pack (message "########## module puppet-pack loaded"))
+(el-get-bundle! blog-pack (message "########## module blog-pack loaded"))
+(el-get-bundle! wiki-pack (message "########## module wiki-pack loaded"))
+(el-get-bundle! haskell-pack (message "########## module haskell-pack loaded"))
+(el-get-bundle! irc-pack (message "########## module irc-pack loaded"))
+(el-get-bundle! mercurial-pack (message "########## module mercurial-pack loaded"))
+(el-get-bundle! conkeror-pack (message "########## module conkeror-pack loaded"))
+(el-get-bundle! pres-pack (message "########## module pres-pack loaded"))
+(el-get-bundle! browser-pack (message "########## module browser-pack loaded"))
+(el-get-bundle! scratch-pack (message "########## module scratch-pack loaded"))
 
 ;; deactivate those
-;; (el-get-bundle! purescript-pack)
-;; (el-get-bundle! idris-pack)
-;; (el-get-bundle! viewer-pack)
-;; (el-get-bundle! marmalade-pack)
-;; (el-get-bundle! stumpwm-pack)
+;; (el-get-bundle! macro-pack (message "########## module macro-pack loaded"))
+;; (el-get-bundle! purescript-pack (message "########## module purescript-pack loaded"))
+;; (el-get-bundle! idris-pack  (message "########## module idris-pack loaded"))
+;; (el-get-bundle! viewer-pack  (message "########## module viewer-pack loaded"))
+;; (el-get-bundle! marmalade-pack (message "########## module marmalade-pack loaded"))
+;; (el-get-bundle! stumpwm-pack  (message "########## module stumpwm-pack loaded"))
 
 ;; issues with the following
 
-;; (el-get-bundle! chat-pack)
-;; (el-get-bundle! orgmode-pack)
-;; (el-get-bundle! clojure-pack)
-;; (el-get-bundle! scala-pack)
-;; (el-get-bundle! caml-pack)
+;; (el-get-bundle! chat-pack (message "########## module chat-pack loaded"))
+;; (el-get-bundle! clojure-pack (message "########## module clojure-pack loaded"))
+;; (el-get-bundle! scala-pack (message "########## module scala-pack loaded"))
+;; (el-get-bundle! caml-pack (message "########## module caml-pack loaded"))
+
+(message "############# Packs loading done!")
 
 ;; (when (not (daemonp))
 ;;   (server-start))

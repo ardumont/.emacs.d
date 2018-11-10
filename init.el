@@ -69,6 +69,10 @@
   (mail-pack-load-pack)
   (message "############# module mail-pack loaded"))
 
+(el-get-bundle! weechat-pack
+  (global-weechat-pack-mode)
+  (message "########## module weechat-pack loaded"))
+
 (el-get-bundle! git-pack (message "############# module git-pack loaded"))
 (el-get-bundle! buffer-pack(message "############# module buffer-pack loaded"))
 (el-get-bundle! helm-pack (message "########## module helm-pack loaded"))

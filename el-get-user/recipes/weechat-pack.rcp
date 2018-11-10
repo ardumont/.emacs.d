@@ -1,0 +1,4 @@
+(:name weechat-pack
+       :type git
+       :url "git@ardumont.freeboxos.fr:ardumont/weechat-pack"
+       :depends (weechat))

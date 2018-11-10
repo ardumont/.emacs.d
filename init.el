@@ -78,6 +78,7 @@
   (message "############# module buffer-pack loaded"))
 
 (el-get-bundle! git-pack (message "############# module git-pack loaded"))
+(el-get-bundle! prog-mode-pack (message "############# module prog-mode-pack loaded"))
 (el-get-bundle! helm-pack (message "########## module helm-pack loaded"))
 (el-get-bundle! help-pack (message "########## module help-pack loaded"))
 (el-get-bundle! popup-pack (message "########## module popup-pack loaded"))

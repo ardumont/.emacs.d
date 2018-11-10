@@ -1,0 +1,6 @@
+(:name zero-dark-theme
+       :description "A dark, medium contrast theme for Emacs"
+       :type github
+       :pkgname "NicolasPetton/zerodark-theme"
+       :depends (all-the-icons magit flycheck))
+

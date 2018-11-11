@@ -1,0 +1,154 @@
+[el-get/el-get-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/el-get-pack.git
+update = git pull --rebase
+
+[el-get/theme-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/theme-pack.git
+update = git pull --rebase
+
+[el-get/prelude-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/prelude-pack.git
+update = git pull --rebase
+
+[el-get/mail-pack]
+checkout =
+  git clone git@ardumont.freeboxos.fr:ardumont/mail-pack.git
+  cd mail-pack
+  git checkout notmuch
+update = git pull --rebase
+
+[el-get/weechat-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/weechat-pack.git
+update = git pull --rebase
+
+[el-get/buffer-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/buffer-pack.git
+update = git pull --rebase
+
+[el-get/git-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/git-pack.git
+update = git pull --rebase
+
+[el-get/prog-mode-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/prog-mode-pack.git
+update = git pull --rebase
+
+[el-get/helm-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/helm-pack.git
+update = git pull --rebase
+
+[el-get/help-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/help-pack.git
+update = git pull --rebase
+
+[el-get/popup-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/popup-pack.git
+update = git pull --rebase
+
+[el-get/modeline-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/modeline-pack.git
+update = git pull --rebase
+
+[el-get/shell-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/shell-pack.git
+update = git pull --rebase
+
+[el-get/orgmode-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/orgmode-pack.git
+update = git pull --rebase
+
+[el-get/python-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/python-pack.git
+update = git pull --rebase
+
+[el-get/twitter-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/twitter-pack.git
+update = git pull --rebase
+
+[el-get/lisp-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/lisp-pack.git
+update = git pull --rebase
+
+[el-get/elisp-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/elisp-pack.git
+update = git pull --rebase
+
+[el-get/puppet-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/puppet-pack.git
+update = git pull --rebase
+
+[el-get/blog-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/log-pack.git
+update = git pull --rebase
+
+[el-get/wiki-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/wiki-pack.git
+update = git pull --rebase
+
+[el-get/haskell-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/haskell-pack.git
+update = git pull --rebase
+
+[el-get/irc-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/irc-pack.git
+update = git pull --rebase
+
+[el-get/mercurial-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/mercurial-pack.git
+update = git pull --rebase
+
+[el-get/conkeror-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/conkeror-pack.git
+update = git pull --rebase
+
+[el-get/pres-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/pres-pack.git
+update = git pull --rebase
+
+[el-get/browser-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/browser-pack.git
+update = git pull --rebase
+
+[el-get/scratch-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/scratch-pack.git
+update = git pull --rebase
+
+[el-get/viewer-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/iewer-pack.git
+update = git pull --rebase
+
+[el-get/marmalade-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/marmalade-pack.git
+update = git pull --rebase
+
+[el-get/macro-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/macro-pack.git
+update = git pull --rebase
+
+[el-get/purescript-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/purescript-pack.git
+update = git pull --rebase
+
+[el-get/idris-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/idris-pack.git
+update = git pull --rebase
+
+[el-get/stumpwm-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/stumpwm-pack.git
+update = git pull --rebase
+
+[el-get/chat-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/chat-pack.git
+update = git pull --rebase
+
+[el-get/clojure-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/clojure-pack.git
+update = git pull --rebase
+
+[el-get/scala-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/scala-pack.git
+update = git pull --rebase
+
+[el-get/caml-pack]
+checkout = git clone git@ardumont.freeboxos.fr:ardumont/caml-pack.git
+update = git pull --rebase

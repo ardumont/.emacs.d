@@ -1,4 +1,4 @@
 (:name lisp-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/lisp-pack"
-       :depends (highlight eval-sexp-fu paredit fold-dwim smartscan clojure-mode))
+       :depends (eval-sexp-fu paredit fold-dwim))

@@ -49,8 +49,8 @@
   (message "########## module el-get-pack loaded"))
 
 (el-get-bundle! theme-pack
-  (theme-pack-set-size)
   (global-theme-pack-mode)
+  (theme-pack-set-size)
   (theme-pack-dark)
   (message "############# module theme-pack loaded"))
 

@@ -1,8 +1,7 @@
 ;;; init.el --- dot-emacs setup through el-get
 
-;; Copyright (C) 2018  Antoine Romain Dumont
-
-;; Author: Antoine Romain Dumont <antoine.romain.dumont@gmail.com>
+;; Copyright (C) 2018  Antoine R. Dumont (@ardumont)
+;; Author: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
 ;; Keywords:
 
 ;; This program is free software; you can redistribute it and/or modify

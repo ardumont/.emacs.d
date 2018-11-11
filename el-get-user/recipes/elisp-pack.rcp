@@ -2,5 +2,5 @@
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/elisp-pack"
        :depends (bug-hunter el-mock goto-last-change
-			    cl-lib dash aggressive-indent-mode
-			    smartscan overseer page-break-lines emr))
+			    dash aggressive-indent-mode
+			    overseer page-break-lines emr))

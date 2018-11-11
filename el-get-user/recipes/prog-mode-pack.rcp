@@ -1,4 +1,4 @@
 (:name prog-mode-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/prog-mode-pack"
-       :depends (crux))
+       :depends (crux smartscan))

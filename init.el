@@ -63,8 +63,7 @@
   (message "############# module prelude-pack loaded"))
 
 (el-get-bundle! mail-pack
-  ;; no need for overriding the load-path, el-get is already dealing
-  ;; with it
+  ;; no need to override load-path, el-get deals with it
   (custom-set-variables '(mail-pack-mail-indexer-install-folder nil))
   (mail-pack-load-pack)
   (message "############# module mail-pack loaded"))

@@ -1,4 +1,4 @@
 (:name puppet-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/puppet-pack"
-       :depends (smartscan puppet-mode))
+       :depends (puppet-mode))

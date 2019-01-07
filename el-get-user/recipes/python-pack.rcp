@@ -1,4 +1,4 @@
 (:name python-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/python-pack"
-       :depends (elpy))
+       :depends (elpy smartparens))

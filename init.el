@@ -46,6 +46,10 @@
 (message "### el-get init done. Packs loading!")
 ;; (setq el-get-bundle-byte-compile nil)
 
+;; for notification issues (el-get includes a fallback on this lib
+;; when failure)
+(el-get-install 'notify)
+
 (el-get-bundle! el-get-pack
   (global-el-get-pack-mode)
   (message "### el-get-pack loaded"))

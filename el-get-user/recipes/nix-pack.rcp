@@ -1,4 +1,5 @@
-(:name nix-pack
+(:name blog-pack
+       :description "Nix pack"
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/nix-pack"
-       :depends (smartscan helm-nixos-options company-nixos-options nix-mode))
+       :depends (nix-mode smartscan))

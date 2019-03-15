@@ -109,6 +109,7 @@
 (el-get-bundle! scratch-pack (message "### scratch-pack loaded"))
 (el-get-bundle! viewer-pack (message "### viewer-pack loaded"))
 (el-get-bundle! marmalade-pack (message "### marmalade-pack loaded"))
+(el-get-bundle! nix-pack (message "### nix-pack loaded"))
 
 ;; deactivate those
 ;; (el-get-bundle! macro-pack (message "### macro-pack loaded"))

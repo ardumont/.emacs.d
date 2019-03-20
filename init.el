@@ -44,6 +44,10 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
 (message "### el-get init done. Packs loading!")
+;; default indentation setup
+(setq-default indent-tabs-mode nil
+              tab-width 4)
+
 ;; (setq el-get-bundle-byte-compile nil)
 
 ;; for notification issues (el-get includes a fallback on this lib

@@ -1,4 +1,4 @@
 (:name browser-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/browser-pack"
-       :depends (emacs-w3m restclient))
+       :depends (restclient))

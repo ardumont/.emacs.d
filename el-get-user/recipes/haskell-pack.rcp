@@ -2,5 +2,5 @@
        :description "Haskell configuration"
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/haskell-pack"
-       :depends (deferred structured-haskell-mode haskell-mode
-		 flymake-shell ghci-completion emacs-w3m smartscan flymake-hlint))
+       :depends (deferred structured-haskell-mode haskell-mode flymake-shell
+                  ghci-completion smartscan flymake-hlint))

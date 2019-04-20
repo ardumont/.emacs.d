@@ -1,4 +1,4 @@
 (:name git-pack
        :type git
        :url "git@ardumont.freeboxos.fr:ardumont/git-pack"
-       :depends (fullframe magit git-gutter))
+       :depends (fullframe magit magit-popup git-gutter))
